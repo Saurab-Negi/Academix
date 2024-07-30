@@ -1,7 +1,12 @@
-export default function App() {
+import './App.css'
+import { Pokemon } from './Pokemon'
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Pokemon/>
+    </div>
   )
 }
+
+export default App
